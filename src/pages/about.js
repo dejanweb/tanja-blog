@@ -1,11 +1,13 @@
 import React from "react"
 
+import Layout from '../components/layout'
+
 const aboutPage = () => {
     return (
-        <div>
+        <Layout>
             <h1>About</h1>
             <h2>This is the about me page</h2>
-        </div>
+        </Layout>
     )
 }
 
