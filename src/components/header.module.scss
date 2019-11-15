@@ -1,0 +1,28 @@
+.headstyle {
+    padding-top: 5rem;
+    background-image: url(./images/header/tanja-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroheader {
+    display: inline-block;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.8);
+    outline: 5px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 5px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none !important;
+    transition: 0.1s linear;
+    margin-right: 1rem;
+
+    &:hover {
+        color: rgba(0, 0, 0, 0.7);
+    }
+}
+

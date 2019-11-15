@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './header'
 import Footer from './footer'
 import Sidebar from './sidebar'
-import './layout.css'
+
 import './bootstrap.min.css'
 
 const Layout = (props) => {
